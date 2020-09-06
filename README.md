@@ -1,6 +1,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Note](#note)
+* [Requirements](#requirements)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Tests](#test)
@@ -13,6 +14,9 @@ This project is a simple flask implementation that interacts with any valid gith
 ## Note
 Given the dynamic structure of this program, **it is advisable to visit the endpoint '/active/user' first**. That way, the **user** is easily noted and information about the repos of the user can be fetched using the second endpoint **/downwards/repo**. If not, the program will simply advice you do so. 
 	
+## Requirements
+To run this program, you need to have **Python** and **virtualenv** installed in your local machine.
+
 ## Technologies
 This project is created with the following modules:
 * Flask
