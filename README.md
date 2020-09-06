@@ -10,7 +10,7 @@ This project is a simple flask implementation that interacts with any valid gith
 * The endpoint /downwards/<repo> returns a json object with a boolean field that is true if the specified repo has had more deletions than additions in the last 7 days. False is returned if otherwise.
 
 ## Note
-Given the dynamic structure of this program, **it is advisable to visit the endpoint '/active/user' first**. That way, the **user** is easily noted and information about the repos of the user can be fetched using the second endpoint /downwards/<repo>. If not, the program will simply advice you do so. 
+Given the dynamic structure of this program, **it is advisable to visit the endpoint '/active/user' first**. That way, the **user** is easily noted and information about the repos of the user can be fetched using the second endpoint **/downwards/repo**. If not, the program will simply advice you do so. 
 	
 ## Technologies
 Project is created with:
