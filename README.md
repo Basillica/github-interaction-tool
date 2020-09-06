@@ -3,6 +3,7 @@
 * [Note](#note)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Tests](#test)
 
 ## General info
 This project is a simple flask implementation that interacts with any valid github profile. Two endpoints are exposed:
@@ -33,3 +34,5 @@ To run this program on docker, simply run the docker file using the following co
 $ docker build . -t flask-app:v1
 $ docker run -p 5000:5000 flask-app:v1
 ```
+
+## Test
