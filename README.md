@@ -23,11 +23,14 @@ This project is created with the following modules:
 To run this project on a local machine, simply follow the instructions below:
 
 ```
-$ curl https://api.github.com/Basillica/github-interaction-tool
-$ cd github-interaction-tool
+$ curl https://api.github.com/Basillica/github-interaction-tool-master
+$ cd github-interaction-tool-master
+$ virtualenv env
 $ env\Script\activate
+$ pip install -r requirements.txt
 $ python run.py
 ```
+Open the browser and navigate to **http://127.0.0.1:5000**
 
 To run this program on docker, simply run the docker file using the following commands:
 ```
