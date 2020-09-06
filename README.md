@@ -27,7 +27,7 @@ This project is created with the following modules:
 To run this project on a local machine, simply follow the instructions below:
 
 ```
-$ curl https://api.github.com/Basillica/github-interaction-tool-master
+$ curl https://github.com/Basillica/github-interaction-tool.git
 $ cd github-interaction-tool-master
 $ virtualenv env
 $ env\Script\activate
