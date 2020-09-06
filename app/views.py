@@ -59,7 +59,7 @@ def currentRepo(username):
         return "Wrong url: " + url
     
     for link in repo_urls:
-        print(link)
+        #print(link)
         for count, ele in enumerate(months):
             if ele == link.text.split(' ')[0]:
                 date_ = str(count+1) + ' ' + link.text.split(' ')[1][:-1] + ' ' \
