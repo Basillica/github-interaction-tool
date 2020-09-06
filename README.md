@@ -38,8 +38,8 @@ $ docker run -p 5000:5000 flask-app:v1
 ## Test
 
 Basic test are also implemented.
-These include the response of the index endpoint and the return object from the endpoint (which is supposed to be a **JSON** object).
-To run the test, from the virtual environment
+These include the response of the index endpoint and the return object from the endpoint ( which is supposed to be a **JSON** object ).
+To run the test, from the virtual environment:
 
 ```
 $ python test.py
