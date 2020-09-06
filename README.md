@@ -13,7 +13,7 @@ This project is a simple flask implementation that interacts with any valid gith
 Given the dynamic structure of this program, **it is advisable to visit the endpoint '/active/user' first**. That way, the **user** is easily noted and information about the repos of the user can be fetched using the second endpoint **/downwards/repo**. If not, the program will simply advice you do so. 
 	
 ## Technologies
-Project is created with:
+This project is created with the following modules:
 * Flask
 * Beautifulsoup
 * Requests
